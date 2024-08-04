@@ -1,6 +1,6 @@
 ﻿# Solana Tools
 
-Solana Tools is a collection of tools and utilities for interacting with the Solana blockchain.
+Solana Tools is a collection of tools and utilities (for now, only one tool published) for interacting with the Solana blockchain.
 
 The **Solana Raydium Pool Watcher** is a tool designed to monitor liquidity pools on the Solana blockchain, specifically focusing on Raydium pools. It utilizes Solnet to interact with the Solana RPC and listen for changes in pool accounts.
 
