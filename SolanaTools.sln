@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolanaRaydiumPoolWatcher", "SolanaRaydiumPoolWatcher\SolanaRaydiumPoolWatcher.csproj", "{8E568629-9903-45FE-ACEA-EA73FECD3E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoolWatcher.Raydium", "PoolWatcherTool\PoolWatcher.Raydium\PoolWatcher.Raydium.csproj", "{DE7CA855-D216-4BF6-A804-244E7DD132E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoolWatcher", "PoolWatcherTool\PoolWatcher\PoolWatcher.csproj", "{A5CDEDB7-0CA8-4BEC-BEB5-DDF9C606BA7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoolWatcher.Example", "PoolWatcherTool\PoolWatcher.Example\PoolWatcher.Example.csproj", "{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PoolWatcherTool", "PoolWatcherTool", "{F6B3D6CF-B87B-44E9-A912-45FD1B2DD00A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E568629-9903-45FE-ACEA-EA73FECD3E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E568629-9903-45FE-ACEA-EA73FECD3E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E568629-9903-45FE-ACEA-EA73FECD3E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E568629-9903-45FE-ACEA-EA73FECD3E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7CA855-D216-4BF6-A804-244E7DD132E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7CA855-D216-4BF6-A804-244E7DD132E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7CA855-D216-4BF6-A804-244E7DD132E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7CA855-D216-4BF6-A804-244E7DD132E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CDEDB7-0CA8-4BEC-BEB5-DDF9C606BA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CDEDB7-0CA8-4BEC-BEB5-DDF9C606BA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CDEDB7-0CA8-4BEC-BEB5-DDF9C606BA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CDEDB7-0CA8-4BEC-BEB5-DDF9C606BA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE7CA855-D216-4BF6-A804-244E7DD132E4} = {F6B3D6CF-B87B-44E9-A912-45FD1B2DD00A}
+		{A5CDEDB7-0CA8-4BEC-BEB5-DDF9C606BA7D} = {F6B3D6CF-B87B-44E9-A912-45FD1B2DD00A}
+		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F} = {F6B3D6CF-B87B-44E9-A912-45FD1B2DD00A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9B02CF2-0294-4D89-9D84-88B7494C92F4}
