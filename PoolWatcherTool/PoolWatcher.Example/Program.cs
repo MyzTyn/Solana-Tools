@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-// Dependency Injection
-
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using PoolWatcher;
