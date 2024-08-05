@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Solnet.Rpc;
+using Solnet.Wallet;
 
 namespace PoolWatcher;
 
@@ -28,10 +29,10 @@ public interface IPoolWatcherService
     IEnumerable<object> GetPools();
     
     /// <summary>
-    /// Get the transactions.
+    /// Get the transactions by Pool ID.
     /// </summary>
     /// <returns></returns>
-    IEnumerable<object> GetTransactions();
+    public IEnumerable<object> GetTransactions(PublicKey poolID);
     
     /// <summary>
     /// Subscribe to the Pool Watcher Service.
