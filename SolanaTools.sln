@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoolWatcher.Example", "Pool
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PoolWatcherTool", "PoolWatcherTool", "{F6B3D6CF-B87B-44E9-A912-45FD1B2DD00A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenPriceTracker", "TokenPriceTracker\TokenPriceTracker.csproj", "{117D026B-C509-445F-ACF6-034857C85619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6A7161-2EA3-4692-949F-1CA24C3FCA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117D026B-C509-445F-ACF6-034857C85619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117D026B-C509-445F-ACF6-034857C85619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117D026B-C509-445F-ACF6-034857C85619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117D026B-C509-445F-ACF6-034857C85619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

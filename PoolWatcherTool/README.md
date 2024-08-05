@@ -12,9 +12,7 @@ The **Solana Pool Watcher Tool** is a tool designed to monitor liquidity pools o
 - .NET SDK 6.0 or later (Only tested on .NET 8.0)
 - A Solana RPC endpoint (MainNet)
 
-## Example Results
-
-### Solana Pool Watcher Tool
+## Example Result
 
 Here's an example of the Solana Raydium Pool Watcher in action (PoolWatcher.Example):
 ```
