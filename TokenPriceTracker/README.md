@@ -1,6 +1,6 @@
 # Token Price Tracker
 
-Token Price Tracker is a tool for monitoring the price of tokens on the Solana blockchain using the Jupiter Price API.
+Token Price Tracker is a simple tool for monitoring the price of tokens on the Solana blockchain using the Jupiter Price API.
 
 ## Features
 
